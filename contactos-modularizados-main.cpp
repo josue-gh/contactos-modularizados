@@ -39,9 +39,10 @@ int main(){
 		
 		//agregamos la funcion de listar contacto por correo
 		ordenarContactos();
+	}else{
+		cout<<"no encontramos lo que desea hacer... vuelva a intentarlo"<<endl;
+		cout<<endl;
 	}	
-		
-		
 		
 	//hacemos que el ususario diga que ingresar
 	cout<<"deseas realizar algo mas? (si o no)"<<endl;
