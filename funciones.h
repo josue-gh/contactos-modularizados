@@ -3,6 +3,7 @@
 
 #include<string>
 using namespace std;
+ 
 
 struct contactoEmail{
 	
@@ -14,6 +15,9 @@ struct contactoEmail{
 	string nacionalidad;
 };
 
+extern const int maximo;
+extern contactoEmail persona[];
+extern int  cant; 
 
-
+void agregarNcontacto();
 #endif

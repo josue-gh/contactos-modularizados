@@ -5,7 +5,7 @@ using namespace std;
 
 int main(){
 	string respuesta;
-	string hacer;
+	int hacer;
 	
 	do{
 	//mostramos el menu de entrada
@@ -23,7 +23,11 @@ int main(){
 	cin.ignore();
 	//comparamos la respuesta
 		
+	if(hacer == 1){
+		//agregamos la funcion de agregar contacto
+		agregarNcontacto();
 		
+	}	
 		
 		
 		
