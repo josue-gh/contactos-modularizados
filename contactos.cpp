@@ -75,3 +75,17 @@ void eliminarContacto(){
 	    	cout<<endl;
 		}
 }
+
+void listarContactos(){
+	//informo cuantos contactos tiene
+		cout<<"tienes registrado: "<<cant<<" contactos"<<endl;
+		
+		//muestra los contactos que tiene
+		for(int i=0; i<cant; i++){
+			cout<<i+1<<". "<<persona[i].nombres<<endl;
+			cout<<i+1<<". "<<persona[i].telefono<<" - "<<persona[i].nacionalidad<<endl;
+			cout<<endl;
+		}
+		cout<<endl;
+	
+}

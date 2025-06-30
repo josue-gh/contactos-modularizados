@@ -31,6 +31,10 @@ int main(){
 		//agregamos la funcion de eliminar contacto
 		eliminarContacto();
 		
+	}else if(hacer ==3){
+		
+		//agregamos la funcion de listar contactos
+		listarContactos();
 	}	
 		
 		
