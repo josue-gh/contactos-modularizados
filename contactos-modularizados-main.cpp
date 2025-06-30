@@ -35,6 +35,10 @@ int main(){
 		
 		//agregamos la funcion de listar contactos
 		listarContactos();
+	}else if(hacer==4){
+		
+		//agregamos la funcion de listar contacto por correo
+		ordenarContactos();
 	}	
 		
 		

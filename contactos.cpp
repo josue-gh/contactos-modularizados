@@ -89,3 +89,56 @@ void listarContactos(){
 		cout<<endl;
 	
 }
+
+void ordenarContactos(){
+	
+	//mostramos la cantidad de contactos
+		cout<<"tienes "<<cant<<" contactos"<<endl;
+		//designamos una variable tipo char
+		char l;
+		//bucle para pasar de contacto en contacto
+		for(int i=0; i<cant; i++){
+			for(size_t j=0; j<persona[i].email.size(); j++){
+				//l va a guardar cada letra del email puesto
+				l=persona[i].email[j];
+				//condicion para cuando llegue al @
+				if(l=='@'){
+					if(persona[i].email[j+1]=='g'){
+						//mostramos el correo del contacto y el contacto
+						cout<<persona[i].nombres<<endl;
+						cout<<persona[i].email<<endl;
+					}
+					break;
+				}
+			}	
+		}
+		cout<<endl;
+		for(int i=0; i<cant; i++){
+			for(size_t j=0; j<persona[i].email.size(); j++){
+				l=persona[i].email[j];
+				if(l=='@'){
+					if(persona[i].email[j+1]=='o'){
+						cout<<persona[i].nombres<<endl;
+						cout<<persona[i].email<<endl;
+				    }
+				    break;
+				}
+			}
+		}
+		cout<<endl;
+		for(int i=0; i<cant; i++){
+			for(size_t j=0; j<persona[i].email.size(); j++){
+				l=persona[i].email[j];
+				if(l=='@'){
+					if(persona[i].email[j+1]=='y'){
+						cout<<persona[i].nombres<<endl;
+						cout<<persona[i].email<<endl;
+				    }
+				    //break para dejar de seguir corriendo
+				    break;
+				}
+			}
+			
+		}
+		cout<<endl;
+}

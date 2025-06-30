@@ -22,4 +22,5 @@ extern int  cant;
 void agregarNcontacto();
 void eliminarContacto();
 void listarContactos();
+void ordenarContactos();
 #endif
