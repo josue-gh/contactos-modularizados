@@ -27,6 +27,10 @@ int main(){
 		//agregamos la funcion de agregar contacto
 		agregarNcontacto();
 		
+	}else if(hacer ==2){
+		//agregamos la funcion de eliminar contacto
+		eliminarContacto();
+		
 	}	
 		
 		

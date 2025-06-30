@@ -20,4 +20,5 @@ extern contactoEmail persona[];
 extern int  cant; 
 
 void agregarNcontacto();
+void eliminarContacto();
 #endif
