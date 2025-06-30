@@ -1,0 +1,19 @@
+#ifndef FUNCIONES_H
+#define FUNCIONES_H
+
+#include<string>
+using namespace std;
+
+struct contactoEmail{
+	
+	string nombres;
+	char sexo;
+	int edad;
+	string telefono;
+	string email;
+	string nacionalidad;
+};
+
+
+
+#endif
